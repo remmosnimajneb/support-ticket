@@ -1,5 +1,5 @@
-#Support Ticket System
-##Another, I got bored and built something, by Benjamin Sommer
+# Support Ticket System
+## Another, I got bored and built something, by Benjamin Sommer
 	Project: Support Ticket System
 	Code Version: 1.0
 	Author: Benjamin Sommer
@@ -12,13 +12,13 @@
 	3. Files Explanation
 	4. Updates to come
 
-#1. Overview - What is this?
+# 1. Overview - What is this?
 	Well I was bored one day and decided to build something. So this is a standard Support Ticket System, clients login, send a support ticket for something that's wrong and the admin can close the ticket when completed.
 
 	So what makes this better than any other free support ticket system?
 	Nothing. Heck it's probably worse, but it's working so I figured might as well push to GitHub
 
-#2. Requirments:
+# 2. Requirments:
 
 		-A web server, that can be accessed over the internet for use out of Local Area Network
 		-MySQL with PDO type PHP Extention (!Important!)
@@ -38,7 +38,7 @@
 		5. Login to the admin panel at {Your_Install_Location}/admin the defualt login is ticketadmin and admin123
 		6. Use the backend to add new companies and users, the email system (if setup) will auto-send them there logins
 
-#3. Files Explanation
+# 3. Files Explanation
 	Just goes through the files (even thought I left comments) to explain how it all works
 		/
 		->Functions.php - Sets global variables for the MySQL connection and the Email Function (SMTP Server)
@@ -55,7 +55,7 @@
 				->newUser.php - add new user to system, allows creation of new admins for backend
 				->adminUpdate.php - Update MySQL and send emails (via mailer.php) for newUser.php and newCompany.php
 
-#4. Updates
+# 4. Updates
 	Things I want to one day fix
 		1. Cleanup mailer.php
 		2. Connect login pages (login.php and /admin/login.php)
